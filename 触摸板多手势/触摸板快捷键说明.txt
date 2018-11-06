@@ -1,0 +1,29 @@
+启动:
+每次开机自动执行:libinput-gestures-setup restart
+sudo vim /etc/rc.local，添加以下内容
+sh /home/wangsai/.config/libinput-gestures-autostart.sh
+
+1,四指
+    左右滑动，切换工作区 ctrl+alt+left/right  
+    上下划动，上下翻页 Page_UP/Page_Down
+    捏合，显示工作区视图 supre+s
+
+2,三指
+    ###1,显示桌面，捏合  
+    ###2,放大，任务视图 
+    2,下划，显示桌面打开/关闭 ctrl+super+d
+    3,上划，任务视图打开/关闭 super+w
+    4,向左划，切换浏览器tab (ctrl+tab)
+    5,向右划，切换浏览器tab ctrl+shift+tab
+    
+3,两指
+    1,捏合，缩小 ctrl+-
+    2,展开，放大 ctrl++
+    3,轻击，鼠标右键
+
+4,单指
+    1,快速双击，按住不放可以拖动.
+
+5,组合手势
+   1,右划+下划,关闭浏览器tab  (ctrl+w)
+   2,右划+上划,新建浏览器tab  (ctrl+t)
