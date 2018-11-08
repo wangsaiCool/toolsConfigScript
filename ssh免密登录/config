@@ -1,0 +1,9 @@
+Host relay
+HostName relay.xxxxxxx.com
+
+ControlPersist yes
+ControlMaster auto
+ControlPath ~/.ssh/master-%r@%h:%p
+Compression yes
+ServerAliveInterval 3600
+
