@@ -1,5 +1,5 @@
 # toolsConfigScript
-Uunbut工作环境的自动配置脚本
+Ubuntu工作环境的自动配置脚本
 
 # 1配置笔记本触摸板多手势
 
