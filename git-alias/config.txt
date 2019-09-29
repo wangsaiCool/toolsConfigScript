@@ -5,7 +5,8 @@
     co = checkout
     br = branch
     mg = merge
-    ci = commit 
+    ci = commit
+    cm = commit -m 
     md = commit --amend
     dt = difftool
     mt = mergetool
